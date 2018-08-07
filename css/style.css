@@ -1,0 +1,202 @@
+body{
+ margin:0;
+ padding:0;
+ font-family:Arial;
+
+
+}
+.container{
+	width:900px;
+	margin:0 auto;
+}
+.content{
+	
+	overflow:hidden;
+}
+.clearfix{
+	clear:both;
+}
+h3{
+	font-size:30px;
+}
+nav{
+	float:left;
+	width:5%;
+	background:#3b5998;
+	height:100vh;
+	position:fixed;
+	z-index:2;
+	
+}
+nav ul{
+	position:relative;
+	top:20%;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+	
+	
+}
+
+nav ul li{
+	
+	position:relative;
+	list-style-type:none;
+	text-align:center;
+	overflow:hidden;
+	
+	
+}
+nav ul li a{
+	padding:20px;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	
+	
+	
+	
+}
+nav ul li img{
+	
+	height:30px;
+	width:30px;
+	
+	
+}
+nav li span{
+	
+	
+	color:#0099cc;
+	display:none;
+	float:right;
+	
+}
+nav ul li:hover {
+	
+	
+	background:#fff;
+	
+}
+
+nav ul li:hover span{
+	display:inline;
+	
+	
+	
+}
+
+nav ul li.active {
+	
+	background-color:#fff;
+	
+}
+.right-content{
+	float:right;
+	width:95%;
+	
+}
+.right-content .header{
+	background:url(../images/sunrise.jpg)no-repeat;
+	background-size:cover;
+	height:700px;
+	position:relative;
+	
+}
+.overlay{
+	min-height:100%;
+	width:100%;
+	
+	background-color:rgba(0,0,0,.7);
+	
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	
+}
+.header h1{
+    
+    font-size: 65px;
+    font-weight: bold;
+	text-align:center;
+	margin-top:20%;
+}
+.header p{
+    
+    
+	text-align:center;
+	
+}
+.contact{
+	text-align:center;
+	padding:50px 0;
+	background-color:#222;
+	color:#fff;
+	background:url(../images/contact-bg.png)no-repeat;
+	background-size:cover;
+	min-height:300px;
+	position:relative;
+	
+}
+.contact form{
+	
+	overflow:hidden
+}
+.contact form .left-input{
+	
+	float:left;
+	width:50%;
+}
+.contact form .left-input input{
+	background:transparent;
+	display:block;
+	margin-bottom: 20px;
+    border: none;
+    border-radius: 0;
+    padding:10px;
+    border-bottom: 1px solid #3b5998;
+	width:300px;
+	outline:none;
+	color:#fff;
+}
+.contact form .right-input{
+	
+	float:right;
+	width:50%;
+	
+}
+.contact form .right-input textarea{
+	background:transparent;
+	height: 178px;
+    border: none;
+    width:300px;
+    padding:10px;
+    border-bottom: 1px solid #3b5998;
+	outline:none;
+	color:#fff;
+	
+}
+.contact form [type="submit"]{
+	
+	background: #3b5998;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border:0;
+    color: #fff;
+    font-weight: bold;
+	cursor:pointer;
+}
+.contact form [type="submit"]:hover{
+	
+	background: #fff;
+    color: #3b5998;
+    
+}
+footer{
+	padding:20px;
+	background-color:#222;
+	text-align:center;
+	color:#fff;
+}
